@@ -6,7 +6,7 @@ Exception in thread "main" com.sun.jersey.api.client.ClientHandlerException: jav
 	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
 	at io.swagger.client.ApiClient.invokeAPI(ApiClient.java:395)
 	at io.swagger.client.api.CustomersApi.create(CustomersApi.java:166)
-	at io.swagger.client.Launch.main(Launch.java:38)
+	at io.swagger.client.Launch.main(Launch.java:34)
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
